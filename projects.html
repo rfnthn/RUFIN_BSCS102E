@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josefa Athena</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (for social icons) -->
+    <script src="https://kit.fontawesome.com/9f588b52d7.js" crossorigin="anonymous"></script>
+
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Josefa Athena</a>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link dropdown-toggle">Social</a>
+                    <div class="dropdown">
+                        <a href="https://www.facebook.com/share/1Am2bUMVXS/" class="dropdown-link"> Facebook</a>
+                        <a href="https://www.instagram.com/rfn_thn?igsh=MWNrb3NhZDZ0dHNscg==" class="dropdown-link"> Instagram</a>
+                        <a href="https://x.com/athena_rufin?t=N-B-Tzg2VfV9oM3wWLf61A&s=09" class="dropdown-link"> Twitter</a>
+                        <a href="https://github.com/rfnthn" class="dropdown-link"> GitHub</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!--Home-->
+    <main>
+        <section class="home" id="home-section">
+        <div class="home-text">
+            <h1 class="head">Hi! I'm Josefa Athena</h1>
+            <p class="head">
+                A passionate and creative Computer Science Student, Web Developer, Visual Artist, and Multimedia Designer.
+            </p>
+          </div>
+        </section>
+
+        <header role="banner">
+            <h1>My Projects</h1>
+            <p class="subtitle">I take pride in creating innovative and user-focused projects across various fields such as web development, multimedia design, C++, and Python. 
+              Each project reflects my passion for combining functionality with creativity, from building responsive websites and interactive applications to crafting compelling visual designs and developing intelligent tools. 
+              My work showcases my versatility, attention to detail, and commitment to delivering quality solutions.</p>
+        </header>
+
+         <!-- Projects -->
+        <section aria-labelledby="projects-title">
+        <div class="projects-wrapper">
+          <div role="tablist" aria-label="Project categories" class="project-tabs">
+          <button class="tab-button" role="tab" aria-selected="true" aria-controls="tab-all" id="tab-all-btn" tabindex="0">All</button>
+          <button class="tab-button" role="tab" aria-selected="false" aria-controls="tab-cpp" id="tab-cpp-btn" tabindex="-1">C++</button>
+          <button class="tab-button" role="tab" aria-selected="false" aria-controls="tab-python" id="tab-python-btn" tabindex="-1">Python</button>
+          <button class="tab-button" role="tab" aria-selected="false" aria-controls="tab-web" id="tab-web-btn" tabindex="-1">HTML & CSS</button>
+          <button class="tab-button" role="tab" aria-selected="false" aria-controls="tab-multimedia" id="tab-multimedia-btn" tabindex="-1">Multimedia Design</button>
+        </div>
+
+                <!-- All Projects -->
+                <div tabindex="0" role="tabpanel" id="tab-all" aria-labelledby="tab-all-btn">
+                <div class="project-list">
+                    <!-- All projects combined -->
+                    <article class="project-card" tabindex="0" aria-label="Short Film">
+                    <img src="images/Multimedia Design/film.jpg" alt="Short Film Poster" loading="lazy" />
+                    <h4>Short Film Poster</h4>
+                    <p>
+                        The Film Poster project showcases a visually compelling design created to promote a movie. 
+                        It features key elements such as the film title, tagline, imagery, and credits, all arranged to capture the mood and genre of the film. 
+                    </p>
+                    <a href="images/Multimedia Design/film.jpg" class="project-link" aria-label="View Short Film">View Project</a>
+                    </article>
+                    <article class="project-card" tabindex="0" aria-label="Poster">
+                    <img src="images/Multimedia Design/poster.png" alt="Poster" loading="lazy" />
+                    <h4>Poster</h4>
+                    <p>
+                        The Poster features a visually engaging design created to communicate a specific message, theme, or event. 
+                        It combines layout, typography, and graphics to capture attention and deliver information effectively. 
+                    </p>
+                    <a href="images/Multimedia Design/poster.png" class="project-link" aria-label="View Poster">View Project</a>
+                    </article>
+
+                    <article class="project-card" tabindex="0" aria-label="Project: Machine Learning Model">
+                    <img src="images/Python/rockpaper.jpg" alt="rockpaper" loading="lazy" />
+                    <h4>Rock Paper Scissors Game</h4>
+                    <p>
+                        The Rock Paper Scissors Game is a classic two-player game recreated in a digital format, where a user competes against the computer. 
+                        Players choose between rock, paper, or scissors, and the game determines the winner based on standard rules. 
+                    </p>
+                    <a href="images/Python/rockpaper.jpg" class="project-link" aria-label="RPS Game">View Project</a>
+                    </article>
+
+                    <article class="project-card" tabindex="0" aria-label="Guessing Game">
+                    <img src="images/C++/guessinggm.jpg" alt="guessinggm" loading="lazy" />
+                    <h4>Number Guessing Game</h4>
+                    <p>
+                        The Number Guessing Game is a simple interactive game where the player tries to guess a randomly selected number within a specific range. 
+                        After each guess, the game provides feedback on whether the guess was too high, too low, or correct. The goal is to guess the number in 
+                        as few attempts as possible. 
+                    </p>
+                    <a href="images/C++/guessinggm.jpg" class="project-link" aria-label="guessing game">View Project</a>
+                    </article>
+                    <article class="project-card" tabindex="0" aria-label="Binomial">
+                    <img src="images/C++/binomial.jpg" alt="binomial" loading="lazy" />
+                    <h4>Binomial</h4>
+                    <p>
+                        The Simple Binomial Calculator is a tool that allows users to quickly compute the expansion of binomial expressions
+                        by simply entering values for variables and exponents
+                    </p>
+                    <a href="images/C++/binomial.jpg" class="project-link" aria-label="binomial">View Project</a>
+                    </article>
+
+                    <article class="project-card" tabindex="0" aria-label="Project: Portfolio Website">
+                    <img src="images/HTML & CSS/website.png" alt="Screenshot of Portfolio Website project homepage" loading="lazy" />
+                    <h4>Portfolio Website</h4>
+                    <p>Modern responsive website built to showcase my personal projects, skills, and background.</p>
+                    <a href="images/HTML & CSS/website.png" class="project-link" aria-label="Portfolio Website">View Project</a>
+                    </article>
+                    <article class="project-card" tabindex="0" aria-label="Project: Menu">
+                    <img src="images/HTML & CSS/menu.png" alt="menu" loading="lazy" />
+                    <h4>Menu</h4>
+                    <p>The Menu project is a simple and visually organized interface that displays a list of food or product items with prices.</p>
+                    <a href="images/HTML & CSS/menu.png" class="project-link" aria-label="Menu">View Project</a>
+                    </article>
+                </div>
+                </div>
+
+                <!-- Individual categories -->
+                <div tabindex="0" role="tabpanel" id="tab-cpp" aria-labelledby="tab-cpp-btn" hidden>
+                <div class="project-list">
+                    <article class="project-card" tabindex="0" aria-label="Guessing Game">
+                    <img src="images/C++/guessinggm.jpg" alt="guessinggm" loading="lazy" />
+                    <h4>Number Guessing Game</h4>
+                    <p>
+                        The Number Guessing Game is a simple interactive game where the player tries to guess a randomly selected number within a specific range. 
+                        After each guess, the game provides feedback on whether the guess was too high, too low, or correct. The goal is to guess the number in 
+                        as few attempts as possible. 
+                    </p>
+                    <a href="images/C++/guessinggm.jpg" class="project-link" aria-label="guessing game">View Project</a>
+                    </article>
+                    <article class="project-card" tabindex="0" aria-label="Binomial">
+                    <img src="images/C++/binomial.jpg" alt="binomial" loading="lazy" />
+                    <h4>Binomial</h4>
+                    <p>
+                        The Simple Binomial Calculator is a tool that allows users to quickly compute the expansion of binomial expressions
+                        by simply entering values for variables and exponents
+                    </p>
+                    <a href="images/C++/binomial.jpg" class="project-link" aria-label="binomial">View Project</a>
+                    </article>
+                </div>
+                </div>
+
+                <div tabindex="0" role="tabpanel" id="tab-python" aria-labelledby="tab-python-btn" hidden>
+                <div class="project-list">
+                    <article class="project-card" tabindex="0" aria-label="Project: Machine Learning Model">
+                    <img src="images/Python/rockpaper.jpg" alt="rockpaper" loading="lazy" />
+                    <h4>Rock Paper Scissors Game</h4>
+                    <p>
+                        The Rock Paper Scissors Game is a classic two-player game recreated in a digital format, where a user competes against the computer. 
+                        Players choose between rock, paper, or scissors, and the game determines the winner based on standard rules. 
+                    </p>
+                    <a href="images/Python/rockpaper.jpg" class="project-link" aria-label="RPS Game">View Project</a>
+                    </article>
+                </div>
+                </div>
+
+                <div tabindex="0" role="tabpanel" id="tab-web" aria-labelledby="tab-web-btn" hidden>
+                <div class="project-list">
+                    <article class="project-card" tabindex="0" aria-label="Project: Portfolio Website">
+                    <img src="images/HTML & CSS/website.png" alt="Screenshot of Portfolio Website project homepage" loading="lazy" />
+                    <h4>Portfolio Website</h4>
+                    <p>Modern responsive website built to showcase my personal projects, skills, and background.</p>
+                    <a href="images/HTML & CSS/website.png" class="project-link" aria-label="Portfolio Website">View Project</a>
+                    </article>
+                    <article class="project-card" tabindex="0" aria-label="Project: Menu">
+                    <img src="images/HTML & CSS/menu.png" alt="menu" loading="lazy" />
+                    <h4>Menu</h4>
+                    <p>The Menu project is a simple and visually organized interface that displays a list of food or product items with prices.</p>
+                    <a href="images/HTML & CSS/menu.png" class="project-link" aria-label="Menu">View Project</a>
+                    </article>
+                </div>
+                </div>
+
+                <div tabindex="0" role="tabpanel" id="tab-multimedia" aria-labelledby="tab-multimedia-btn" hidden>
+                <div class="project-list">
+                    <article class="project-card" tabindex="0" aria-label="Short Film">
+                    <img src="images/Multimedia Design/film.jpg" alt="Short Film Poster" loading="lazy" />
+                    <h4>Short Film Poster</h4>
+                    <p>
+                        The Film Poster project showcases a visually compelling design created to promote a movie. 
+                        It features key elements such as the film title, tagline, imagery, and credits, all arranged to capture the mood and genre of the film. 
+                    </p>
+                    <a href="images/Multimedia Design/film.jpg" class="project-link" aria-label="View Short Film">View Project</a>
+                    </article>
+                    <article class="project-card" tabindex="0" aria-label="Poster">
+                    <img src="images/Multimedia Design/poster.png" alt="Poster" loading="lazy" />
+                    <h4>Poster</h4>
+                    <p>
+                        The Poster features a visually engaging design created to communicate a specific message, theme, or event. 
+                        It combines layout, typography, and graphics to capture attention and deliver information effectively. 
+                    </p>
+                    <a href="images/Multimedia Design/poster.png" class="project-link" aria-label="View Poster">View Project</a>
+                    </article>
+                </div>
+                </div>
+            </div>
+            </section>
+    </main>
+
+<script src="script.js" defer></script>
+
+
+<footer>
+<!--Footer-->
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://www.facebook.com/share/1Am2bUMVXS/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/rfn_thn?igsh=MWNrb3NhZDZ0dHNscg=="><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://x.com/athena_rufin?t=N-B-Tzg2VfV9oM3wWLf61A&s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/rfnthn"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p class="copyright">&copy 2025 Josefa Athena౨ৎ</p>
+        </footer>
+    </div>         
+</footer>
+</body>
+</html>
